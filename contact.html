@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <div class="menuList">
+      <script>
+        var count = 0;
+        function addClassToggle() {
+          document.querySelector('.menuList').classList.toggle("toggleMenuList");
+          if (count >= 1){
+            document.querySelector('.menuList').classList.toggle("toggleMenuListOff");
+          }
+          count++;
+        }
+      </script>
+      <ul class="menuText" style="list-style-type:none;font-size:40px;">
+        <a href="home.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="projects.html"><li>Projects</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </div>
+  	<div class="menuFour">
+    	<script>
+      var menuClicked = false;
+  		function addClassFunFour() {
+        	document.querySelector('.menuFour').classList.toggle("clickMenuFour");
+          addClassToggle();
+      }
+      document.querySelector('.menuFour').addEventListener('click', addClassFunFour);
+      </script>
+    	<span href="#"></span>
+    	<span href="#"></span>
+	  </div>
+    <h1>Contact Info</h1>
+    <div>
+      <span class='para' style="word-wrap:break-word; display: block;">
+        Email: brandon@brliu.com<br><br>
+        Github: <a href="https://github.com/bliu8923">https://github.com/bliu8923</a>
+        
+      </span>
+  </body>
+</html>

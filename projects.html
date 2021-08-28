@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="style.css">
+    <title>Brandon's Projects</title>
+  </head>
+  <body>
+    <div class="menuList">
+      <script>
+        var count = 0;
+        function addClassToggle() {
+          document.querySelector('.menuList').classList.toggle("toggleMenuList");
+          if (count >= 1){
+            document.querySelector('.menuList').classList.toggle("toggleMenuListOff");
+          }
+          count++;
+        }
+      </script>
+      <ul class="menuText" style="list-style-type:none;font-size:40px;">
+        <a href="home.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="projects.html"><li>Projects</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </div>
+  	<div class="menuFour">
+    	<script>
+      var menuClicked = false;
+  		function addClassFunFour() {
+        	document.querySelector('.menuFour').classList.toggle("clickMenuFour");
+          addClassToggle();
+      }
+      document.querySelector('.menuFour').addEventListener('click', addClassFunFour);
+      </script>
+    	<span href="#"></span>
+    	<span href="#"></span>
+	  </div>
+    <h1>Project Showcase</h1>
+    <div>
+      <h2>Computer Science/Engineering Projects</h2>
+      <div class="box" style='float:right'>
+        <a class="button" href="#popup1">IoT Universal Remote</a>
+      </div>
+      <div id="popup1" class="overlay">
+        <div class="popup">
+          <h2>IoT Universal Remote</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:left'>
+        <a class="button" href="#popup2">Huffman Encoder</a>
+      </div>
+      <div id="popup2" class="overlay">
+        <div class="popup">
+          <h2>Huffman Encoder</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:center'>
+        <a class="button" href="#popup3">Floating Point Calculator</a>
+      </div>
+      <div id="popup3" class="overlay">
+        <div class="popup">
+          <h2>Floating Point Calculator</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:right'>
+        <a class="button" href="#popup4">The Website!</a>
+      </div>
+      <div id="popup4" class="overlay">
+        <div class="popup">
+          <h2>The Website!</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:left'>
+        <a class="button" href="#popup5">RobotC Pong</a>
+      </div>
+      <div id="popup5" class="overlay">
+        <div class="popup">
+          <h2>RobotC Pong</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:center'>
+        <a class="button" href="#popup6">'Protect the President'</a>
+      </div>
+      <div id="popup6" class="overlay">
+        <div class="popup">
+          <h2>'Protect the President'</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Data Science Projects</h2>
+      <div class="box" style='float:right'>
+        <a class="button" href="#popup100">The Basics</a>
+      </div>
+      <div id="popup001" class="overlay">
+        <div class="popup">
+          <h2>IoT Universal Remote</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:left'>
+        <a class="button" href="#popup200">Social Media Sentiment</a>
+      </div>
+      <div id="popup200" class="overlay">
+        <div class="popup">
+          <h2>Huffman Encoder</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+      <div class="box" style='float:center'>
+        <a class="button" href="#popup300">Recipe Recommender</a>
+      </div>
+      <div id="popup300" class="overlay">
+        <div class="popup">
+          <h2>Floating Point Calculator</h2>
+          <a class="close" href="#">&times;</a>
+          <div class="content">
+            Come back later for content.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
