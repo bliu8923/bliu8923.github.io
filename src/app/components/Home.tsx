@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Code2, Briefcase, GraduationCap } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import profileImg1 from '@/assets/brandon.jpeg';
-import profileImg2 from '@/assets/brandon2.jpg';
+import profileImg2 from '@/assets/brandon2.jpeg';
 
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
